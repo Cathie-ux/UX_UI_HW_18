@@ -1,49 +1,141 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />  <link href="css/style.css" rel="stylesheet" type="text/css">
  <title>Cathie Yun</title>
 </head>
 
+
+<!-- Nav Bar -->
 <body>
  <div class="nav">
     <div class="left">
-        <img src="images/Logo.png"> 
+        <!-- <img src="images/Logo.png">  -->
+        <h1>Cathie Yun</h1>
     </div>
     <div class="right">
-      <a href="#">About</a>
       <a href="#">Contact</a>
-      <a href="#">Digital</a>
-      <a href="#">Print</a>
+      <a href="#">Skills</a>
+      <a href="#">Work</a>
     </div>
   </div>
 
-<div class="heroImg">
-  <div class="images-profile">
-  <img src="images/Cathie_Yun.jpg" alt="profile">
-  <img src="images/IMG_6508.jpg" alt="sunset">
- </div>
-</div>
-
-<div class="article">
-  <p>Cathie Yun is an UX/UI designer and art director with extensive experience in solving design problems. She has worked in various industries from wellness, beauty, fashion, food, travel, home, celebrity, lifestyle and educational content for digital and print.
-  <br>
-  <br></br>
-  A graduate of <em>The Cooper Union for the Advancement of Science</em> she studied graphic design, calligraphy and photography. While attending <em>The Cooper Union</em>, she worked at <em>The Herb Lubalin Study Center of Design and Typography</em>. Assisting in curating exhibitions,  the preservation of design history and archiving of design ephemera. She continues to learn and develop her professional development skills, has a UXUI certification from the <em>General Assembly</em> and <em>Columbia Engineering Bootcamp</em>.
-  </p>
-</div>
-
-<div class="footer">
-    <div class="copyright">
-      <p>©Cathie Yun 2021</p>
+<!-- /* About Me */ -->
+  <section class="aboutme">
+    <div>
+      <h1 id="myHeader">Cathie Yun</h1>
     </div>
-    <div class="social">
-      <a href="#">Behance</a>
-      <a href="#">Linkedin</a>
-      <a href="#">Email</a>
+  </section>
+
+  <section>
+    <div class="heroImg">
+      <div class="images-profile">
+      <img src="images/Cathie_Yun.jpg" alt="profile">
     </div>
-</div>
+  <div class="article">
+    <p>UX/UI designer with extensive experience in solving design problems. I have worked in various industries from wellness, beauty, fashion, food, travel, home, celebrity, lifestyle and educational content for digital, and print.<br><br>Most recently, I was an Art Director for the Scholastic National Partnership brand. Collaborating and inspiring art department manager who is passionate about teaming with colleagues and clients to achieve great UX/UI design.
+    </p>
+  </div>
+  </section>
+
+<!-- /* My Work */ -->
+  <section>
+  <div class="myWork">
+    <h1>Work</h1>
+  </div>
+  </section> 
+
+  <section>
+  <div class="workGrid">
+    <div class="images-trav"> 
+      <img src="images/travel.png" alt="travel">
+    </div>
+    <div class="traveltext">
+      <h2>TravSafe</h2>
+      <h3>MOBILE DESIGN, TRAVEL APP</h3>
+      <h4>View Work</h4> 
+      <img src="images/chevronright.png" alt="arrow">
+    </div>
+  </div>
+  </section>
+
+  <section>
+    <div class="workGrid">
+      <div class="images-nsa"> 
+        <img src="images/nsa.png" alt="nsa">
+      </div>
+      <div class="nsatext">
+        <h2>National Security <br>Agency</h2>
+        <h3>RESPONSIVE DESIGN</h3>
+        <h4>View Work</h4> 
+        <img src="images/chevronright.png" alt="arrow">
+      </div>
+    </div>
+    </section>
+
+  <section>
+    <div class="workGrid">
+      <div class="images-sportteam"> 
+        <img src="images/sport.png" alt="sportteam">
+      </div>
+      <div class="sporttext">
+        <h2>sporTTeam</h2>
+        <h3>MOBILE DESIGN, SOCIAL APP</h3>
+        <h4>View Work</h4> 
+        <img src="images/chevronright.png" alt="arrow">
+      </div>
+    </div>
+    </section>
+
+  <section>
+      <div class="workGrid">
+        <div class="images-shelter"> 
+          <img src="images/giveshelter.png" alt="shelter">
+        </div>
+        <div class="sheltertext">
+          <h2>Give Me Shelter Project, Inc.</h2>
+          <h3>RESPONSIVE DESIGN</h3>
+          <h4>View Work</h4> 
+          <img src="images/chevronright.png" alt="arrow">
+        </div>
+      </div>
+  </section>
+
+<!-- /* My Skills */ -->
+<section class="skills">
+  <div class="skillhd">
+  <h1>Skills</h1>
+  </div>
+    <div class="mySkills">
+    <div class="flex-container">
+        <div class="flex-child UXUI">
+        <img src="images/double diamond process.jpg" alt="diamond">
+        <h2>UX/UI Design</h2>
+        <p> User-Centric Design Research, User-Testing, Design Thinking, Sketching, Wire-framing, User Interface Development, Information Architecture, Rapid Prototyping, Visual Design, Responsive Web Design, Branding + Identity, Product Design, Product Strategy
+        </p>      
+    </div>
+    <div class="flex-child tech">
+      <img src="images/tools.jpg" alt="tool">
+      <h2>Technical Skills</h2>
+      <p>Figma, Adobe XD, Sketch, InVision, Adobe CC, Miro, InDesign, Photoshop, Illustrator, HTML, CSS, JavaScript, jQuery, Bootstrap, GitHub, VS Code
+      </p>
+    <div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+  <div class="footer">
+      <div class="copyright">
+        <p>©Cathie Yun 2021</p>
+      </div>
+      <div class="social">   
+        <a href="#">Behance</a>
+        <a href="#">Linkedin</a>
+        <a href="#">Email</a>   
+      </div>
+  </div>
+</section>
 
 </body>
 </html>
